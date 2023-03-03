@@ -1,0 +1,182 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+
+
+.logo {
+  float: left;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 5px;
+  box-shadow: 3px 5px 7px 2px rgba(0, 0, 0, 0.768);
+}
+
+.log {
+  margin: 2px;
+  padding: 2px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.main {
+  max-width: 1350px;
+  margin: auto;
+}
+
+.buttons {
+  height: 10vh;
+  background-size: cover;
+}
+
+.main ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 15px;
+  position: static;
+}
+
+.main ul li {
+  display: inline-block;
+}
+
+.main ul li a {
+  text-decoration: none;
+  color: rgb(214, 203, 203);
+  border: 1px solid transparent;
+  font-weight: lighter;
+  margin: 5px;
+  padding: 2px;
+  border-radius: 5px;
+  transition: 0.1s ease;
+
+}
+
+.main ul li a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(202, 234, 231, 0.88);
+  border-color: rgb(243, 239, 239);
+  border-radius: 10px;
+  text-shadow: 2px;
+  padding: 5px;
+}
+
+ul li.active a {
+  color: black;
+  border-bottom: 2px solid rgba(79, 210, 18, 0.855);
+  border-top: 2px solid rgba(79, 210, 18, 0.855);
+}
+
+
+
+body {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../static/images/1.JPG");
+  margin: 20px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  border-sh
+}
+
+.intro {
+  height: 50vh;
+  margin: auto;
+  padding: 10px;
+  margin-top: 50px;
+  border: 2px solid transparent;
+  /* border-radius: 50%; */
+  margin-bottom: 5px;
+  width: 750px;
+  box-shadow: 3px 5px 7px 2px rgba(0, 1, 0, 0.768);
+}
+
+.intro h1 {
+  text-align: center;
+}
+.frame {
+  width: 49px;
+  margin: 15px;
+  padding-left: 10px;
+  /* box-shadow:  rgba(229, 217, 217, 0.768); */
+
+}
+
+.tex p1 {
+  margin-left: 50px;
+  text-align: left;
+  float: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+  color: bisque;
+}
+
+.frame img {
+  float: left;
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow:  rgba(229, 217, 217, 0.768);
+
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  height: 50%;
+  margin-top: 10%;
+}
+
+footer p{
+
+  text-decoration: dotted;
+  color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.social ul {
+  list-style-type: none;
+  margin-top: 10px;
+  float: center;
+  top: 10%;
+}
+
+.social ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.social ul li a {
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-weight: lighter;
+  margin: 0 10px 10px 0;
+  padding: 2px;
+  border-color: rgb(178, 46, 46) transparent;
+  border-radius: 40px;
+  transition: 0.1s ease;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.768);
+}
+
+.social ul li a:hover {
+  padding: 5px;
+  border-color: blue;
+  border-bottom: 5px;
+  border-top: 2px;
+  float: right;
+  background-color: (rgba(243, 22, 22, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.social ul li a img {
+  border-radius: 50%;
+  align-content: center;
+}
