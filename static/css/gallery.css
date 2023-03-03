@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.gallery{
+    /* display:flex; */
+    justify-content: center;
+    margin: 10px;
+    height:100%;
+    margin-bottom: 10%;
+
+}
+
+title{
+
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 50px;
+    justify-content: center;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+
+ 
+
+
+}
+
+.title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:50px;
+    color: rgb(234, 195, 146);
+    font-style: oblique;
+
+}
+
+.photo-frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    margin-top: 10%;
+    border:none;
+}
+
+.photo-frame li{
+    margin-left: 15px;
+    display: inline-block;
+
+    
+
+}
+
+.p1{
+    display: flex;
+    justify-content:center;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    box-shadow:2px 4px 5px 8px rgb(255, 255, 255);
+
+}
+
+.p2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    border: 2px solid red;
+    border-radius: 2px;
+    box-shadow:4px 5px 3px 6px rgb(250, 254, 255);
+}
