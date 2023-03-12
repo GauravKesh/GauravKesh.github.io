@@ -1,4 +1,4 @@
 # GauravKesh.github.io
-My Portfolio
-These website is designesd by the Author 
+My Portfolio\n
+These website is designesd by the Author \n
 All rights are preserved 
