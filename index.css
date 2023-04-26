@@ -112,7 +112,7 @@ body {
 
 }
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
   .tex p1{
     font-size: 80px;
   }
@@ -120,7 +120,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .tex p1 {
-    font-size: 30px;
+    font-size: 30px; */
     
 .tex p1 {
   margin-left: 50px;
